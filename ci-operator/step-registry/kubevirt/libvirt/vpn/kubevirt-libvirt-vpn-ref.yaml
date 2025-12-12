@@ -1,0 +1,19 @@
+ref:
+  as: kubevirt-libvirt-vpn
+  from: libvirt-installer
+  grace_period: 30m
+  commands: kubevirt-libvirt-vpn-commands.sh
+  env:
+  - name: ARCH
+  - name: BRANCH
+  - name: POOL_NAME
+    default: 'TBD'
+  resources:
+    requests:
+      cpu: 10m
+      memory: 100Mi
+  dependencies:
+    - name: "release:latest"
+      env: OPENSHIFT_INSTALL_TARGET
+  documentation: >-
+    This is a pre-step for testing the connectivity into the new IBM-Z network space

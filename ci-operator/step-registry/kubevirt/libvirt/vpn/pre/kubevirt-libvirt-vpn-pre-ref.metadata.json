@@ -1,0 +1,11 @@
+{
+	"path": "kubevirt/libvirt/vpn/pre/kubevirt-libvirt-vpn-pre-ref.yaml",
+	"owners": {
+		"approvers": [
+			"TBD"
+		],
+		"reviewers": [
+			"TBD"
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"path": "kubevirt/libvirt/vpn/kubevirt-libvirt-vpn-workflow.yaml",
+	"owners": {
+		"approvers": [
+			"TBD"
+		],
+		"reviewers": [
+			"TBD"
+		]
+	}
+}

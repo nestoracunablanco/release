@@ -1,0 +1,13 @@
+ref:
+  as: upi-install-libvirt-network
+  from: libvirt-installer
+  commands: upi-install-libvirt-network-commands.sh
+  env:
+  - name: ARCH
+  resources:
+    requests:
+      cpu: 10m
+      memory: 100Mi
+  documentation: |-
+    The libvirt UPI network install step uses virsh to stand up a libvirt network configured by the
+    upi-conf-libvirt-network step.
